@@ -1,34 +1,30 @@
 module Main exposing (..)
+
+import Http
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Events exposing ( onClick )
 
+import Commands exposing (fetchVenues)
+import Models exposing (..)
+import Msgs exposing (Msg(..))
+import Updates exposing (update)
 -- component import example
-import Components.Hello exposing ( hello )
+--import Components.Restaurant exposing ( restaurant )
 
+
+init : ( Model, Cmd Msg )
+init =
+    ( initialModel, fetchVenues )
 
 -- APP
-main : Program Never Int Msg
+main : Program Never Model Msg
 main =
-  Html.beginnerProgram { model = model, view = view, update = update }
-
-
--- MODEL
-type alias Model = Int
-
-model : number
-model = 0
-
-
--- UPDATE
-type Msg = NoOp | Increment
-
-update : Msg -> Model -> Model
-update msg model =
-  case msg of
-    NoOp -> model
-    Increment -> model + 1
-
+  Html.program
+    { init = init
+    , view = view
+    , update = update
+    , subscriptions = \_ -> Sub.none
+    }
 
 -- VIEW
 -- Html is defined as: elem [ attribs ][ children ]
@@ -39,17 +35,24 @@ view model =
     div [ class "row" ][
       div [ class "col-xs-12" ][
         div [ class "jumbotron" ][
-          img [ src "static/img/elm.jpg", style styles.img ] []                             -- inline CSS (via var)
-          , hello model                                                                     -- ext 'hello' component (takes 'model' as arg)
-          , p [] [ text ( "Elm Webpack Starter" ) ]
-          , button [ class "btn btn-primary btn-lg", onClick Increment ] [                  -- click handler
-            span[ class "glyphicon glyphicon-star" ][]                                      -- glyphicon
-            , span[][ text "FTW!" ]
-          ]
+          viewPlaces model.venues
         ]
       ]
     ]
   ]
+
+viewPlaces : List Venue -> Html Msg
+viewPlaces venues = 
+  section
+    [ class "main" ]
+    [ ul [] (List.map viewSinglePlace venues)
+    ]
+
+viewSinglePlace : Venue -> Html Msg
+viewSinglePlace place =
+  li []
+    [ p [] [ text ( toString place.name ) ]
+    ]
 
 
 -- CSS STYLES

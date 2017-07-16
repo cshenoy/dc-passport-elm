@@ -1,0 +1,881 @@
+[{
+  "id": 1,
+  "name": "1831 Bar & Lounge",
+  "long_address": "1831 Bar & Lounge 1831 M St NW Washington DC 20036 Dupont Circle",
+  "address1": "1831 M St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20036",
+  "neighborhood": "Dupont Circle",
+  "phone": "(202) 223 - 1831",
+  "site": "1831dc.com",
+  "offer": "Select Handcrafted Cocktails",
+  "coords": {
+    "lat": 38.90583099999999,
+    "lng": -77.04298399999999
+  }
+}, {
+  "id": 1,
+  "name": "201 Bar",
+  "long_address": "201 Bar 201 Massachusetts Ave NE Washington DC 20002 Capitol Hill",
+  "address1": "201 Massachusetts Ave NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Capitol Hill",
+  "phone": "(202) 544 - 5201",
+  "site": "201bar.com",
+  "offer": "Cardomom Old Fashioneds",
+  "coords": {
+    "lat": 38.894690499999996,
+    "lng": -77.00335480000001
+  }
+}, {
+  "id": 1,
+  "name": "Atlas Brew Works",
+  "long_address": "Atlas Brew Works 2052 West Virginia Ave NE Washington DC 20002 Ivy City",
+  "address1": "2052 West Virginia Ave NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Ivy City",
+  "phone": "(202) 832 - 0420",
+  "site": "atlasbrewworks.com",
+  "offer": "Brews on Tap",
+  "coords": {
+    "lat": 38.914857,
+    "lng": -76.981435
+  }
+}, {
+  "id": 1,
+  "name": "B Too",
+  "long_address": "B Too 1324 14th Street NW Washington DC 20005 Logan Circle",
+  "address1": "1324 14th Street NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20005",
+  "neighborhood": "Logan Circle",
+  "phone": "(202) 627 - 2800",
+  "site": "btoo.com",
+  "offer": "Te Quiero Taco Belge Cocktail",
+  "coords": {
+    "lat": 38.9080825,
+    "lng": -77.03230919999999
+  }
+}, {
+  "id": 1,
+  "name": "Barrel",
+  "long_address": "Barrel 613 Pennsylvania Ave SE Washington DC 20003 Capitol Hill",
+  "address1": "613 Pennsylvania Ave SE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20003",
+  "neighborhood": "Capitol Hill",
+  "phone": "(202) 543 - 3622",
+  "site": "barreldc.com",
+  "offer": "Milk Punch",
+  "coords": {
+    "lat": 38.8851145,
+    "lng": -76.9978686
+  }
+}, {
+  "id": 1,
+  "name": "Big Chief",
+  "long_address": "Big Chief 2002 Fenwick St NE Washington DC 20002 Ivy City",
+  "address1": "2002 Fenwick St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Ivy City",
+  "phone": "(202) 465 - 4241",
+  "site": "bigchiefdc.com",
+  "offer": "Daiquiris",
+  "coords": {
+    "lat": 38.91476900000001,
+    "lng": -76.98505849999998
+  }
+}, {
+  "id": 1,
+  "name": "Buffalo & Bergen",
+  "long_address": "Buffalo & Bergen 1309 5th St NE Washington DC 20002 NoMa",
+  "address1": "1309 5th St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "NoMa",
+  "phone": ">(202) 543 - 2549",
+  "site": "buffalobergendc.com",
+  "offer": "Specialty Boozy Punch",
+  "coords": {
+    "lat": 38.90865379999999,
+    "lng": -76.9975508
+  }
+}, {
+  "id": 1,
+  "name": "Cotton & Reed",
+  "long_address": "Cotton & Reed 1330 5th St NE Washington DC 20002 NoMa",
+  "address1": "1330 5th St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "NoMa",
+  "phone": ">(202) 544 - 2805",
+  "site": "cottonandreed.com/home",
+  "offer": "Cocktails",
+  "coords": {
+    "lat": 38.9095223,
+    "lng": -76.99775349999999
+  }
+}, {
+  "id": 1,
+  "name": "The Coupe",
+  "long_address": "The Coupe 3415 11th St NW Washington DC 20010 Columbia Heights",
+  "address1": "3415 11th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20010",
+  "neighborhood": "Columbia Heights",
+  "phone": "(202) 290 - 3342",
+  "site": "thecoupedc.com",
+  "offer": "Rotating Seasonal Cocktails or Draft Beers",
+  "coords": {
+    "lat": 38.93259580000001,
+    "lng": -77.02811980000001
+  }
+}, {
+  "id": 1,
+  "name": "Crisp Kitchen + Bar",
+  "long_address": "Crisp Kitchen + Bar 1837 1st St NW Washington DC 20001 Bloomingdale",
+  "address1": "1837 1st St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Bloomingdale",
+  "phone": "(202) 853 - 9115",
+  "site": "crispdc.com",
+  "offer": "Craft Cocktails or Draft Beer",
+  "coords": {
+    "lat": 38.915361999999995,
+    "lng": -77.01189690000001
+  }
+}, {
+  "id": 1,
+  "name": "DC Brau Brewing Company",
+  "long_address": "DC Brau Brewing Company 3178-B Bladensburg Rd NE Washington DC 20018 Fort Lincoln",
+  "address1": "3178-B Bladensburg Rd NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20018",
+  "neighborhood": "Fort Lincoln",
+  "phone": "(202) 621 - 8890",
+  "site": "dcbrau.com",
+  "offer": "DC Brau Pints",
+  "coords": {
+    "lat": 38.929742999999995,
+    "lng": -76.960283
+  }
+}, {
+  "id": 1,
+  "name": "DC Harvest",
+  "long_address": "DC Harvest 517 H St NE Washington DC 20002 H Street Corridor",
+  "address1": "517 H St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "H Street Corridor",
+  "phone": "(202) 629 - 3296",
+  "site": "dc-harvest.com",
+  "offer": "DCH Signature Cocktails",
+  "coords": {
+    "lat": 38.9000014,
+    "lng": -76.9988055
+  }
+}, {
+  "id": 1,
+  "name": "Declaration Restaurant",
+  "long_address": "Declaration Restaurant 804 V St NW Washington DC 20001 North Shaw",
+  "address1": "804 V St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "North Shaw",
+  "phone": "(202) 627 - 2277",
+  "site": "declarationrestaurant.com",
+  "offer": "Everything on Draft",
+  "coords": {
+    "lat": 38.9176536,
+    "lng": -77.02322070000002
+  }
+}, {
+  "id": 1,
+  "name": "Denson",
+  "long_address": "Denson 600 F St NW Washington DC 20004 Gallery Place/Chinatown",
+  "address1": "600 F St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20004",
+  "neighborhood": "Gallery Place/Chinatown",
+  "phone": "(202) 499 - 5018",
+  "site": "densondc.com",
+  "offer": "Beers",
+  "coords": {
+    "lat": 38.897025,
+    "lng": -77.02009599999997
+  }
+}, {
+  "id": 1,
+  "name": "Dino's Grotto",
+  "long_address": "Dino's Grotto 1914 9th Street NW Washington DC 20001 Shaw",
+  "address1": "1914 9th Street NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Shaw",
+  "phone": ">(202) 686 - 2966",
+  "site": "dinoinshaw.com",
+  "offer": "Negroni Cocktails ",
+  "coords": {
+    "lat": 38.9161286,
+    "lng": -77.0242371
+  }
+}, {
+  "id": 1,
+  "name": "Dirty Habit",
+  "long_address": "Dirty Habit 555 8th St NW Washington DC 20004 Penn Quarter",
+  "address1": "555 8th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20004",
+  "neighborhood": "Penn Quarter",
+  "phone": "(202) 449 - 7095",
+  "site": "dirtyhabitdc.com",
+  "offer": "Specialty House or Classic Cocktails",
+  "coords": {
+    "lat": 38.896738,
+    "lng": -77.02221689999999
+  }
+}, {
+  "id": 1,
+  "name": "Driftwood Kitchen",
+  "long_address": "Driftwood Kitchen 400 H St NE Washington DC 20002 H Street Corridor",
+  "address1": "400 H St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "H Street Corridor",
+  "phone": "(202) 803 - 2651",
+  "site": "driftwooddc.com",
+  "offer": "Specialty Cocktails or Craft Draft Beers",
+  "coords": {
+    "lat": 38.9003632,
+    "lng": -77.00039319999996
+  }
+}, {
+  "id": 1,
+  "name": "El Camino",
+  "long_address": "El Camino 108 Rhode Island Ave NW Washington DC 20001 Bloomingdale",
+  "address1": "108 Rhode Island Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Bloomingdale",
+  "phone": "(202) 847 - 0419",
+  "site": "elcaminodc.com",
+  "offer": "El Camino Margaritas ",
+  "coords": {
+    "lat": 38.915338,
+    "lng": -77.012677
+  }
+}, {
+  "id": 1,
+  "name": "Free State Atlantic Bar",
+  "long_address": "Free State Atlantic Bar 501B G St NW Washington DC 20011 Chinatown",
+  "address1": "501B G St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20011",
+  "neighborhood": "Chinatown",
+  "phone": "(202) 601 - 7216",
+  "site": "freestatebar.com",
+  "offer": "Draft Beers",
+  "coords": {
+    "lat": 38.8984549,
+    "lng": -77.0192557000000
+  }
+}, {
+  "id": 1,
+  "name": "Graffiato",
+  "long_address": "Graffiato 707 6th St NW Washington DC 20001 Chinatown",
+  "address1": "707 6th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Chinatown",
+  "phone": "(202) 289 - 3600",
+  "site": "graffiatodc.com",
+  "offer": "Tap Cocktails",
+  "coords": {
+    "lat": 38.898672000000005,
+    "lng": -77.019589
+  }
+}, {
+  "id": 1,
+  "name": "Hank's Oyster Bar and Lounge",
+  "long_address": "Hank's Oyster Bar and Lounge 1624 Q St NW Washington DC 20009 Dupont Circle",
+  "address1": "1624 Q St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "Dupont Circle",
+  "phone": "(202) 462 - 4265",
+  "site": "hanksoysterbar.com",
+  "offer": "Rhubarb Spritz",
+  "coords": {
+    "lat": 38.910946800000005,
+    "lng": -77.03810279999999
+  }
+}, {
+  "id": 1,
+  "name": "The Heights",
+  "long_address": "The Heights 3115 14th St NW Washington DC 20010 Columbia Heights",
+  "address1": "3115 14th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20010",
+  "neighborhood": "Columbia Heights",
+  "phone": "(202) 797 - 7227",
+  "site": "theheightsdc.com",
+  "offer": "Signature Cocktails",
+  "coords": {
+    "lat": 38.929647,
+    "lng": -77.032265
+  }
+}, {
+  "id": 1,
+  "name": "J.Paul's Georgetown",
+  "long_address": "J.Paul's Georgetown 3218 M St NW Washington DC 20007 Georgetown",
+  "address1": "3218 M St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20007",
+  "neighborhood": "Georgetown",
+  "phone": "(202) 333 - 3450",
+  "site": "jpaulsdc.com",
+  "offer": "Specialty Cocktails or Pints",
+  "coords": {
+    "lat": 38.905006,
+    "lng": -77.063467
+  }
+}, {
+  "id": 1,
+  "name": "Jake's American Grille and Boiler Room",
+  "long_address": "Jake's American Grille and Boiler Room 5018 Connecticut Ave NW Washington DC 20008",
+  "address1": "5018 Connecticut Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20008",
+  "neighborhood": "Chevy Chase",
+  "phone": "(202) 966 - 5253",
+  "site": "jakesdc.com",
+  "offer": "Draftail or Draft Beer",
+  "coords": {
+    "lat": 38.955224,
+    "lng": -77.070426
+  }
+}, {
+  "id": 1,
+  "name": "Jug & Table",
+  "long_address": "Jug & Table 2446 18th St NW Washington DC 20009 Adams Morgan",
+  "address1": "2446 18th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "Adams Morgan",
+  "phone": "(202) 232 - 7663",
+  "site": "jugandtable.com",
+  "offer": "Wine by the glass",
+  "coords": {
+    "lat": 38.9218506,
+    "lng": -77.04260090000002
+  }
+}, {
+  "id": 1,
+  "name": "Kapnos",
+  "long_address": "Kapnos 2201 14th St NW Washington DC 20009 U St Corridor",
+  "address1": "2201 14th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "U St Corridor",
+  "phone": "(202) 234 - 5000",
+  "site": "kapnosdc.com",
+  "offer": "Draft Cocktails",
+  "coords": {
+    "lat": 38.9193289,
+    "lng": -77.0316292
+  }
+}, {
+  "id": 1,
+  "name": "Le Grenier",
+  "long_address": "Le Grenier 502 H St NE Washington DC 20002 H Street Corridor",
+  "address1": "502 H St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "H Street Corridor",
+  "phone": "(202) 544 - 4999",
+  "site": "legrenierdc.com",
+  "offer": "Craft Cocktail, Beer, or Wine by the glass",
+  "coords": {
+    "lat": 38.9004222,
+    "lng": -76.99924120000003
+  }
+}, {
+  "id": 1,
+  "name": "Lou's City Bar",
+  "long_address": "Lou's City Bar 1400 Irving St NW Washington DC 20010 Columbia Heights",
+  "address1": "1400 Irving St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20010",
+  "neighborhood": "Columbia Heights",
+  "phone": "(202) 518 - 5687",
+  "site": "louscitybar.com",
+  "offer": "Local Beers",
+  "coords": {
+    "lat": 38.928471099999996,
+    "lng": -77.0337839
+  }
+}, {
+  "id": 1,
+  "name": "Mr. Smith's of Georgetown",
+  "long_address": "Mr. Smith's of Georgetown 3205 K St NW Washington DC 20007 Georgetown",
+  "address1": "3205 K St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20007",
+  "neighborhood": "Georgetown",
+  "phone": "(202) 333 - 3104",
+  "site": "mrsmiths.com",
+  "offer": "Pints or Wine by the Glass",
+  "coords": {
+    "lat": 38.90277770000001,
+    "lng": -77.06311670000002
+  }
+}, {
+  "id": 1,
+  "name": "Nazca Mochica",
+  "long_address": "Nazca Mochica 1633 P Street NW Washington DC 20036 Dupont Circle",
+  "address1": "1633 P Street NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20036",
+  "neighborhood": "Dupont Circle",
+  "phone": "(202) 733 - 3170",
+  "site": "nazcamochica.com",
+  "offer": "Pisco Sours",
+  "coords": {
+    "lat": 38.9098486,
+    "lng": -77.03794829999998
+  }
+}, {
+  "id": 1,
+  "name": "Old Glory BBQ",
+  "long_address": "Old Glory BBQ 3139 M St NW Washington DC 20007 Georgetown",
+  "address1": "3139 M St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20007",
+  "neighborhood": "Georgetown",
+  "phone": "(202) 337 - 3406",
+  "site": "oldglorybbq.com",
+  "offer": "Specialty Cocktails",
+  "coords": {
+    "lat": 38.905513000000006,
+    "lng": -77.06221
+  }
+}, {
+  "id": 1,
+  "name": "Petworth Citizen",
+  "long_address": "Petworth Citizen 829 Upshur St NW Washington DC 20011 Petworth",
+  "address1": "829 Upshur St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20011",
+  "neighborhood": "Petworth",
+  "phone": "(202) 722 - 2939",
+  "site": "petworthcitizen.com",
+  "offer": "El Ray Cocktails",
+  "coords": {
+    "lat": 38.9421278,
+    "lng": -77.0245028
+  }
+}, {
+  "id": 1,
+  "name": "Pop's SeaBar ",
+  "long_address": "Pop's SeaBar  1817 Columbia Rd NW Washington DC 20009 Adams Morgan",
+  "address1": "1817 Columbia Rd NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "Adams Morgan",
+  "phone": "(202) 534 - 3933",
+  "site": "popsseabar.com",
+  "offer": "Specialty Summer Cocktails",
+  "coords": {
+    "lat": 38.9219699,
+    "lng": -77.04364799999996
+  }
+}, {
+  "id": 1,
+  "name": "Pub & The People, The",
+  "long_address": "Pub & The People, The 1648 N Capitol St NW Washington DC 20002 Bloomingdale",
+  "address1": "1648 N Capitol St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Bloomingdale",
+  "phone": "(202) 234 - 1800",
+  "site": "thepubandthepeople.com",
+  "offer": "Any Draft Beer",
+  "coords": {
+    "lat": 38.912363,
+    "lng": -77.00930799999998
+  }
+}, {
+  "id": 1,
+  "name": "Quarter + Glory",
+  "long_address": "Quarter + Glory 2017 14th St NW Washington DC 20009 Logan Circle",
+  "address1": "2017 14th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "Logan Circle",
+  "phone": "(202) 450 - 5757",
+  "site": "quarterandglory.com",
+  "offer": "El Dorado Daiquiris",
+  "coords": {
+    "lat": 38.917643999999996,
+    "lng": -77.0317
+  }
+}, {
+  "id": 1,
+  "name": "Red Light Bar",
+  "long_address": "Red Light Bar 1401 R St NW Washington DC 20009 Logan Circle",
+  "address1": "1401 R St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "Logan Circle",
+  "phone": "(202) 234 - 0400",
+  "site": "redlightbardc.com",
+  "offer": "Specialty Cocktails",
+  "coords": {
+    "lat": 38.9127738,
+    "lng": -77.03218070000003
+  }
+}, {
+  "id": 1,
+  "name": "Republic Restoratives Ivy Room",
+  "long_address": "Republic Restoratives Ivy Room 1369 New York Ave NE Washington DC 20002 Ivy City",
+  "address1": "1369 New York Ave NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Ivy City",
+  "phone": "(202) 733 - 3996",
+  "site": "republicrestoratives.com",
+  "offer": "CIVIC Vodka Cocktails",
+  "coords": {
+    "lat": 38.9153147,
+    "lng": -76.9852721
+  }
+}, {
+  "id": 1,
+  "name": "Roofers Union",
+  "long_address": "Roofers Union 2446 18th St NW Washington DC 20009 Adams Morgan",
+  "address1": "2446 18th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "Adams Morgan",
+  "phone": "(202) 232 - 7663",
+  "site": "roofersuniondc.com",
+  "offer": "Specialty Cocktails or Craft Beers",
+  "coords": {
+    "lat": 38.921857599999996,
+    "lng": -77.0426306
+  }
+}, {
+  "id": 1,
+  "name": "Shaw's Tavern",
+  "long_address": "Shaw's Tavern 520 Florida Ave NW Washington DC 20001 Shaw",
+  "address1": "520 Florida Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Shaw",
+  "phone": "(202) 518 - 4092",
+  "site": "shawstavern.com",
+  "offer": "Draft Beers",
+  "coords": {
+    "lat": 38.9151178,
+    "lng": -77.01965100000001
+  }
+}, {
+  "id": 1,
+  "name": "Silo",
+  "long_address": "Silo 919 5th St NW Washington DC 20001 Chinatown",
+  "address1": "919 5th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Chinatown",
+  "phone": "(202) 290 - 2233",
+  "site": "silodc.com",
+  "offer": "Specialty Cocktails",
+  "coords": {
+    "lat": 38.9019313,
+    "lng": -77.01866210000003
+  }
+}, {
+  "id": 1,
+  "name": "Sixth Engine",
+  "long_address": "Sixth Engine 438 Massachusetts Ave NW Washington DC 20001 Chinatown/Mt. Vernon",
+  "address1": "438 Massachusetts Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Chinatown/Mt. Vernon",
+  "phone": "(202) 506 - 2455",
+  "site": "sixthengine.com",
+  "offer": "Specialty Cocktails, Local Beer, or Wine",
+  "coords": {
+    "lat": 38.900288499999995,
+    "lng": -77.0172485
+  }
+}, {
+  "id": 1,
+  "name": "Slate Wine Bar + Bistro",
+  "long_address": "Slate Wine Bar + Bistro 2404 Wisconsin Ave NW Washington DC 20007 Glover Park",
+  "address1": "2404 Wisconsin Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20007",
+  "neighborhood": "Glover Park",
+  "phone": ">202) 333 - 4304",
+  "site": "slatewinebar.com",
+  "offer": "Specialty Cocktails or House Wine Glasses",
+  "coords": {
+    "lat": 38.9212803,
+    "lng": -77.07242710000003
+  }
+}, {
+  "id": 1,
+  "name": "Slim's Diner",
+  "long_address": "Slim's Diner 4201 Georgia Ave NW Washington DC 20011 Petworth",
+  "address1": "4201 Georgia Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20011",
+  "neighborhood": "Petworth",
+  "phone": "(202) 783 - 0699",
+  "site": "facebook.com/slimsdiner",
+  "offer": "Marion Berry Slushie",
+  "coords": {
+    "lat": 38.9420389,
+    "lng": -77.0253609
+  }
+}, {
+  "id": 1,
+  "name": "Slipstream",
+  "long_address": "Slipstream 1333 14th St NW Washington DC 20005 Logan Circle",
+  "address1": "1333 14th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20005",
+  "neighborhood": "Logan Circle",
+  "phone": "(202) 450 - 2216",
+  "site": "slipstreamdc.com",
+  "offer": "Coffee Cocktails",
+  "coords": {
+    "lat": 38.90837,
+    "lng": -77.03162480000003
+  }
+}, {
+  "id": 1,
+  "name": "Southern Hospitality",
+  "long_address": "Southern Hospitality 1815 Adams Mill Road NW Washington DC 20009 Adams Morgan",
+  "address1": "1815 Adams Mill Road NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20009",
+  "neighborhood": "Adams Morgan",
+  "phone": "(202) 588 - 0411",
+  "site": "sohodc.com",
+  "offer": "Specialty Cocktails or Draft Beers",
+  "coords": {
+    "lat": 38.92323239999999,
+    "lng": -77.04256989999999
+  }
+}, {
+  "id": 1,
+  "name": "Suburbia",
+  "long_address": "sup",
+  "address1": "1520 5th Street NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "NoMa",
+  "phone": "(202) 543 - 2549",
+  "site": "unionmarketdc.com/retailer/suburbia",
+  "offer": "Frozen Cocktails",
+  "coords": {
+    "lat": 38.90865379999999,
+    "lng": -76.9975508
+  }
+}, {
+  "id": 1,
+  "name": "Tenley Bar & Grill",
+  "long_address": "Tenley Bar & Grill 4611 41st St NW Washington DC 20016 Tenleytown",
+  "address1": "4611 41st St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20016",
+  "neighborhood": "Tenleytown",
+  "phone": "(202) 237 - 1783",
+  "site": "tenleybar.com",
+  "offer": "Drafts",
+  "coords": {
+    "lat": 38.950078,
+    "lng": -77.0801083
+  }
+}, {
+  "id": 1,
+  "name": "Thally",
+  "long_address": "Thally 1316 9th St NW Washington DC 20001 Shaw",
+  "address1": "1316 9th St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20001",
+  "neighborhood": "Shaw",
+  "phone": "(202) 733 - 3849",
+  "site": "thallydc.com",
+  "offer": "Thallytails",
+  "coords": {
+    "lat": 38.907854,
+    "lng": -77.02432699999997
+  }
+}, {
+  "id": 1,
+  "name": "Town Hall",
+  "long_address": "Town Hall 2340 Wisconsin Ave NW Washington DC 20007 Glover Park",
+  "address1": "2340 Wisconsin Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20007",
+  "neighborhood": "Glover Park",
+  "phone": "(202) 333 - 5640",
+  "site": "townhalldc.com",
+  "offer": "Beer, Wine, or Specialty Cocktail",
+  "coords": {
+    "lat": 38.921028,
+    "lng": -77.0723117
+  }
+}, {
+  "id": 1,
+  "name": "The Ugly Mug",
+  "long_address": "The Ugly Mug 723 8th St SE Washington DC 20003 Barracks Row",
+  "address1": "723 8th St SE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20003",
+  "neighborhood": "Barracks Row",
+  "phone": "(202) 547 - 8459",
+  "site": "uglymugdc.com",
+  "offer": "Draftails",
+  "coords": {
+    "lat": 38.88046729999999,
+    "lng": -76.99532420000003
+  }
+}, {
+  "id": 1,
+  "name": "Union Drinkery",
+  "long_address": "Union Drinkery 3216 Georgia Ave NW Washington DC 20010 Park View",
+  "address1": "3216 Georgia Ave NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20010",
+  "neighborhood": "Park View",
+  "phone": "(202) 123 - 4567",
+  "site": "uniondrinkery.com",
+  "offer": "3216 Cocktail",
+  "coords": {
+    "lat": 38.930518,
+    "lng": -77.02375999999998
+  }
+}, {
+  "id": 1,
+  "name": "The Whiskey Room",
+  "long_address": "Whiskey Room, The 3125 M St NW Washington DC 20007 Georgetown",
+  "address1": "3125 M St NW",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20007",
+  "neighborhood": "Georgetown",
+  "phone": "(202) 751 - 2111",
+  "site": "rira.com/georgetown",
+  "offer": "Cocktail of the Week",
+  "coords": {
+    "lat": 38.905389199999995,
+    "lng": -77.06191380000001
+  }
+}, {
+  "id": 1,
+  "name": "The Wicked Bloom Social Club",
+  "long_address": "Wicked Bloom Social Club, The  1540 North Capitol St NE Washington DC 20002 Bloomingdale",
+  "address1": "1540 North Capitol St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Bloomingdale",
+  "phone": "(202) 750 - 6375",
+  "site": "wickedbloomdc.com",
+  "offer": "Draft Narragansett, Absolut Lime Mules, or Rejero Rickeys ",
+  "coords": {
+    "lat": 38.910692,
+    "lng": -77.009456
+  }
+}, {
+  "id": 1,
+  "name": "New Columbia Distillers",
+  "long_address": "New Columbia Distillers 1832 Fenwick St NE Washington DC 20002 Ivy City",
+  "address1": "1832 Fenwick St NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Ivy City",
+  "phone": "(202) 733 - 1710",
+  "site": "greenhatgin.com",
+  "offer": "Green Hat Gin Cocktails ",
+  "coords": {
+    "lat": 38.9135675,
+    "lng": -76.98405500000001
+  }
+}, {
+  "id": 1,
+  "name": "One Eight Distilling",
+  "long_address": "One Eight Distilling 1135 Okie Street NE Washington DC 20002 Ivy City",
+  "address1": "1135 Okie Street NE",
+  "city": "Washington",
+  "state": "DC",
+  "zipcode": "20002",
+  "neighborhood": "Ivy City",
+  "phone": "(202) 636 - 6638",
+  "site": "oneeightdistilling.com",
+  "offer": "Cocktails",
+  "coords": {
+    "lat": 38.913086,
+    "lng": -76.98888199999999
+  }
+}]

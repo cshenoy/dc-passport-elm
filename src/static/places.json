@@ -1,0 +1,587 @@
+[{
+  "id": 1,
+  "name": "Suburbia",
+  "neighborhood": "Union Market",
+  "offer": "Any Beers or Wine",
+  "visited": false,
+  "coords": {
+    "lat": 33.82351,
+    "lng": -77.8391
+  }
+}, {
+  "id": 2,
+  "name": "DC Harvest",
+  "neighborhood": "H Street",
+  "offer": "Cocktails",
+  "visited": false,
+  "coords": {
+    "lat": 33.82351,
+    "lng": -77.8391
+  }
+}, {
+  "id": 3,
+  "name": "Atlas Brew Works",
+  "neighborhood": "Ivy City",
+  "offer": "Cocktails",
+  "visited": false,
+  "coords": {
+    "lat": 33.82351,
+    "lng": -77.8391
+  }
+}, {
+  "id": 4,
+  "name": "El Camino",
+  "neighborhood": "Bloomingdale",
+  "offer": "Cocktails",
+  "visited": false,
+  "coords": {
+    "lat": 33.82351,
+    "lng": -77.8391
+  }
+}]
+
+[{
+  "name": "1831 Bar & Lounge",
+  "neighborhood": "Dupont Circle",
+  "offer": "Select Handcrafted Cocktails",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "201 Bar",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Atlas Brew Works",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "B Too",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Barrel",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Big Chief",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Buffalo & Bergen",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Cotton & Reed",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "The Coupe",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Crisp Kitchen + Bar",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "DC Brau Brewing Company",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "DC Harvest",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Declaration Restaurant",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Denson",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Dino's Grotto",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Dirty Habit",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Driftwood Kitchen",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "El Camino",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Free State Atlantic Bar",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Graffiato",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Hank's Oyster Bar and Lounge",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "The Heights",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "J.Paul's Georgetown",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Jake's American Grille and Boiler Room",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Jug & Table",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Kapnos",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Le Grenier",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Lou's City Bar",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Mr. Smith's of Georgetown",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Nazca Mochica",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "New Columbia Distillers",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Old Glory BBQ",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "One Eight Distilling",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Petworth Citizen ",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Pop's SeaBar",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "The Pub & The People",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Quarter + Glory",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Red Light Bar",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Republic Restoratives Ivy Room",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Roofers Union",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Shaw's Tavern",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Silo",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Sixth Engine",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Slate Wine Bar + Bistro",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Slim's Diner",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Slipstream",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Southern Hospitality",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Suburbia DC",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Tenley Bar & Grill",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Thally",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Town Hall",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "The Ugly Mug",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "Union Drinkery",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "The Whiskey Room",
+  "neighborhood": "",
+  "offer": "",
+  "visited": false,
+  "site": "something.com",
+  "coords": {
+    "lat": 1234,
+    "lng": 6789
+  }
+}, {
+  "name": "The Wicked Bloom Social Club",
+  "neighborhood": "Bloomingdale",
+  "site": "wickedbloomdc.com"
+}]
