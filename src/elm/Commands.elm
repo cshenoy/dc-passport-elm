@@ -3,7 +3,7 @@ module Commands exposing (..)
 import Http
 import Json.Decode as Decode
 import Json.Decode.Pipeline as Pipeline exposing (decode)
-import Models exposing (Venue)
+import Models exposing (Venue, Coords)
 import Msgs exposing (Msg(..))
 
 fetchVenues : Cmd Msg
@@ -29,3 +29,10 @@ venueDecoder =
     |> Pipeline.optional "visited" Decode.bool False
     |> Pipeline.required "offer" Decode.string
     |> Pipeline.required "id" Decode.int
+    |> Pipeline.required "coords" coordsDecoder
+
+coordsDecoder : Decode.Decoder Coords
+coordsDecoder =
+  decode Coords
+    |> Pipeline.required "lat" Decode.float
+    |> Pipeline.required "lng" Decode.float

@@ -7,8 +7,35 @@
     <meta name="description" content="Elm Webpack Starter"/>
     <meta name="author" content="Peter Morawiec"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
   </head>
   <body>
     <div id="main"></div>
   </body>
+  <script>
+    elm.ports.loadMap.subscribe(function (model) {
+      var mapDiv = document.getElementsByTagName('maps')[0];
+
+      var myLatlng = new google.maps.LatLng(model.lat, model.lng);
+      var mapOptions = {
+        zoom: 12,
+        center: myLatlng
+      };
+      gmap = new google.maps.Map(mapDiv, mapOptions);
+      // We store the Google Map object in Elm
+      // But it's not working so we globalized
+      // the Google Map var `gmap`
+      elm.ports.receiveMap.send({ ok: function () {}});
+    });
+
+    elm.ports.setMarkers.subscribe(function (model) {
+      return model.venues.map(function (venue) {
+        var marker = new google.maps.Marker({
+          position: venue.coords,
+          map: gmap,
+          title: venue.name
+        });
+      });
+    });
+  </script>
 </html>
