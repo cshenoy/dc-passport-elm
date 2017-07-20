@@ -1,0 +1,73 @@
+$drawerWidth: 450px;
+
+html, #main, .app {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.mask {
+  position: relative;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  .leftside {
+    position: relative;
+    right: 100%;
+    float: left;
+    width: 200%;
+    height: 100%;
+    margin-left: -$drawerWidth;
+  }
+}
+
+.col1 {
+  position: relative;
+  left: 50%;
+  float: left;
+  width: 50%;
+  height: 100%;
+
+  .map-wrapper {
+    overflow: hidden;
+    height: 100%;
+    margin-left: $drawerWidth;
+    position: relative;
+
+    .map {
+      height: 100%;
+    }
+  }
+}
+
+.col2 {
+  position: relative;
+  left: $drawerWidth;
+  float: right;
+  width: $drawerWidth;
+  height: 100%;
+  border: 1px solid #e6e6e6;
+  background: rgba(252,252,253,.9);
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.list-container {
+  height: 100%;
+  flex-direction: column;
+
+  .list {
+    overflow-y: auto;
+    height: 100%;
+    // padding: 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: none;
+  }
+}

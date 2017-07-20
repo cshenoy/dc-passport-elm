@@ -1,0 +1,24 @@
+.list-item-container {
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  overflow-y: auto;
+}
+
+.list-item {
+  cursor: pointer;
+  box-sizing: border-box;
+  min-height: 112px;
+  padding: 10px 18px 10px 24px;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  &:hover {
+    background-color: #fafafa;
+    outline: none;
+  }
+}
