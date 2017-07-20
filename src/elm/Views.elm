@@ -15,49 +15,49 @@ gmap =
 -- CSS can be applied via class names or inline style attrib
 view : Model -> Html Msg
 view model =
-  div
-    [ class "container"
-    , style
-      [("margin-top", "30px"), ( "text-align", "center" )] 
-    ]
-    [ div []
-      [ gmap [ mapStyles ] []]
-    , div [ class "row" ]
-      [ div [ class "col-xs-12" ]
-        [ div [ class "jumbotron" ]
-          [ viewPlaces model.venues ]
+  div [ class "app" ]
+    [ div [ class "mask" ]
+      [ div [ class "leftside" ]
+        [ div [ class "col1" ]
+          [ div [ class "map-wrapper" ]
+            [ div [ class "map" ]
+              [ gmap [ mapStyles ] []]
+            ]
+          ]
+        , div [ class "col2" ]
+          [ div [ class "list-container" ]
+            [ div [ class "list "]
+              [ viewPlaces model.venues ]
+            ]
+          ]
         ]
       ]
     ]
 
 viewPlaces : List Venue -> Html Msg
-viewPlaces venues = 
-  section
-    [ class "main" ]
-    [ ul [] (List.map viewSinglePlace venues)
-    ]
+viewPlaces venues =
+  div [ class "list-item-container" ]
+    (List.indexedMap viewSinglePlace venues)
 
-viewSinglePlace : Venue -> Html Msg
-viewSinglePlace place =
-  li []
-    [ p [] [ text ( toString place.name ), text ( toString place.coords.lat ) ]
+viewSinglePlace : Int -> Venue -> Html Msg
+viewSinglePlace index place =
+  div [ class "list-item", id ( "venue" ++ (toString place.id ) ) ]
+    [ div [ class "list-item-content" ]
+      [ h4 [] [ text ( place.name ) ]
+      , p [] [ text (place.neighborhood) ]
+      , p [] [ text ( place.phone ) ]
+      ]
     ]
 
 -- CSS STYLES
 
 mapStyles : Attribute msg
 mapStyles =
-    style
-        [ ( "display", "block" )
-        , ( "height", "500px" )
-        , ( "width", "800px" )
-        ]
-        
---styles : { img : List ( String, String ) }
---styles =
---  {
---    img =
---      [ ( "width", "33%" )
---      , ( "border", "4px solid #337AB7")
---      ]
---  }
+  style
+    [ ( "display", "block" )
+    , ( "left", "0px" )
+    , ( "right", "0px" )
+    , ( "bottom", "0px" )
+    , ( "top", "0px" )
+    , ( "position", "absolute" )
+    ]

@@ -7,6 +7,7 @@ type alias Model =
   { venues : List Venue
   , visibility : String
   , gmap : Value
+  , selected: Maybe Int
   }
 
 type alias Venue =
@@ -15,6 +16,9 @@ type alias Venue =
   , visited : Bool
   , offer : String
   , id : Int
+  , phone : String
+  , site : String
+  , address1 : String
   , coords: Coords
   }
 
@@ -28,4 +32,5 @@ initialModel =
   { venues = []
   , visibility = "All"
   , gmap = E.string "to be replaced by google map"
+  , selected = Nothing
   }

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charSet="utf-8"/>
+    <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DC Passport Program</title>
-    <meta name="description" content="Elm Webpack Starter"/>
-    <meta name="author" content="Peter Morawiec"/>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <meta name="description" content="DC Passport Program" />
+    <meta name="author" content="Chetan Shenoy" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <script src="https://maps.googleapis.com/maps/api/js"></script>
   </head>
   <body>
@@ -29,13 +29,29 @@
     });
 
     elm.ports.setMarkers.subscribe(function (model) {
+      console.log(model);
       return model.venues.map(function (venue) {
         var marker = new google.maps.Marker({
+          animation: google.maps.Animation.DROP,
           position: venue.coords,
           map: gmap,
           title: venue.name
         });
+
+        var sendMarker = function () {
+          return elm.ports.markerClick.send(venue.id);
+        };
+
+        marker.addListener('click', sendMarker);
       });
+
+    });
+
+    elm.ports.scrollToVenue.subscribe(function (venueId) {
+      console.log(venudId);
+      var venueDivId = 'venue' + venueId;
+      var venueEl = document.getElementById(venueDivId);
+      venueEl.parentNode.parentNode.scrollTop = venueEl.offsetTop;
     });
   </script>
 </html>

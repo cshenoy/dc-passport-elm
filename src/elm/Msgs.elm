@@ -10,5 +10,6 @@ type Msg
   = NoOp
   | GetInfo
   | Tick Time
+  | MarkerClick Int
   | JSMap Value
   | FetchAllDone (Result Http.Error (List Venue))

@@ -2,7 +2,7 @@ module Updates exposing (..)
 
 import Models exposing (..)
 import Msgs exposing (Msg(..))
-import Ports exposing (loadMap, setMarkers)
+import Ports exposing (loadMap, setMarkers, scrollToVenue)
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
@@ -13,8 +13,14 @@ update msg model =
       { model | gmap = gmap } ! []
       --( model, Cmd.none )
     Tick _ ->
-      model ! [ loadMap (Coords 38.9072 -77.0369) ]
+      ( model, loadMap (Coords 38.9072 -77.0369) )
 
+    MarkerClick markerId ->
+      let
+        newModel =
+          { model | selected = Just markerId }
+      in
+        newModel ! [ scrollToVenue newModel.selected ]
     GetInfo ->
       ( model, Cmd.none )
     FetchAllDone res ->
