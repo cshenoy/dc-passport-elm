@@ -2,7 +2,7 @@ module Updates exposing (..)
 
 import Models exposing (..)
 import Msgs exposing (Msg(..))
-import Ports exposing (loadMap, setMarkers, scrollToVenue)
+import Ports exposing (loadMap, setMarkers, scrollToVenue, animateMarker, deanimateMarker)
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
@@ -20,7 +20,8 @@ update msg model =
         newModel =
           { model | selected = Just markerId }
       in
-        newModel ! [ scrollToVenue newModel.selected ]
+        newModel
+          ! [ scrollToVenue newModel.selected ]
     GetInfo ->
       ( model, Cmd.none )
     FetchAllDone res ->
@@ -33,3 +34,24 @@ update msg model =
             newModel ! [ setMarkers newModel ]
         Result.Err _ ->
           ( model, Cmd.none )
+
+    Hover venueId ->
+      let
+        newModel =
+          { model | selected = Just venueId }
+      in
+        newModel ! [ animateMarker newModel.selected ]
+
+    HoverOff venueId ->
+      let
+        newModel =
+          { model | selected = Just venueId }
+      in
+        newModel ! [ deanimateMarker newModel.selected ]
+
+    ResetSelected _ ->
+      let
+        newModel =
+          { model | selected = Nothing }
+      in
+        newModel ! []

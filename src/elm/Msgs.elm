@@ -13,3 +13,6 @@ type Msg
   | MarkerClick Int
   | JSMap Value
   | FetchAllDone (Result Http.Error (List Venue))
+  | Hover Int
+  | HoverOff Int
+  | ResetSelected (Maybe Int)

@@ -13,13 +13,26 @@
     <div id="main"></div>
   </body>
   <script>
+    var markers = [];
+    // var MAP_PIN = 'M0-48c-9.8 0-17.7 7.8-17.7 17.4 0 15.5 17.7 30.6 17.7 30.6s17.7-15.4 17.7-30.6c0-9.6-7.9-17.4-17.7-17.4z';
+    var MAP_PIN = 'M 25 1 C 19.484375 1 15 5.484375 15 11 C 15 16.515625 19.484375 21 25 21 C 30.515625 21 35 16.515625 35 11 C 35 5.484375 30.515625 1 25 1 Z M 25 5 C 25.550781 5 26 5.445313 26 6 C 26 6.554688 25.550781 7 25 7 C 22.792969 7 21 8.792969 21 11 C 21 11.554688 20.550781 12 20 12 C 19.449219 12 19 11.554688 19 11 C 19 7.691406 21.691406 5 25 5 Z M 22 22.605469 L 22 43.246094 L 25 48.988281 L 28 43.246094 L 28 22.605469 C 27.039063 22.855469 26.035156 23 25 23 C 23.964844 23 22.960938 22.855469 22 22.605469 Z ';
+    var mapIcon = {
+      path: MAP_PIN,
+      fillColor: '#0d00cc',
+      fillOpacity: 1,
+      strokeColor: '',
+      strokeWeight: 1
+    };
+    var mapHoverIcon = Object.assign({}, mapIcon, { fillColor: '#00CCBB' })
     elm.ports.loadMap.subscribe(function (model) {
       var mapDiv = document.getElementsByTagName('maps')[0];
 
       var myLatlng = new google.maps.LatLng(model.lat, model.lng);
       var mapOptions = {
         zoom: 12,
-        center: myLatlng
+        center: myLatlng,
+        mapTypeControl: false,
+        streetViewControl: false,
       };
       gmap = new google.maps.Map(mapDiv, mapOptions);
       // We store the Google Map object in Elm
@@ -29,18 +42,22 @@
     });
 
     elm.ports.setMarkers.subscribe(function (model) {
-      console.log(model);
       return model.venues.map(function (venue) {
         var marker = new google.maps.Marker({
           animation: google.maps.Animation.DROP,
           position: venue.coords,
           map: gmap,
-          title: venue.name
+          title: venue.name,
+          icon: mapIcon,
         });
 
         var sendMarker = function () {
           return elm.ports.markerClick.send(venue.id);
         };
+        markers.push(Object.assign({}, venue, {
+          marker: marker,
+          zIndex: marker.getZIndex(),
+        }));
 
         marker.addListener('click', sendMarker);
       });
@@ -48,10 +65,30 @@
     });
 
     elm.ports.scrollToVenue.subscribe(function (venueId) {
-      console.log(venudId);
+      // console.log(venueId);
       var venueDivId = 'venue' + venueId;
       var venueEl = document.getElementById(venueDivId);
-      venueEl.parentNode.parentNode.scrollTop = venueEl.offsetTop;
+      document.getElementsByClassName('list-item-container')[0].scrollTop = venueEl.offsetTop;
+    });
+
+    elm.ports.animateMarker.subscribe(function (sup) {
+      // console.log('animate', sup);
+      var marker = markers.find(function (marker) {
+        return marker.id === sup;
+      });
+      // marker.marker.setLabel('F');
+      marker.marker.setIcon(mapHoverIcon);
+      marker.marker.setZIndex(300);
+    });
+
+    elm.ports.deanimateMarker.subscribe(function (sup) {
+      // console.log('deanimate', sup);
+      var marker = markers.find(function (marker) {
+        return marker.id === sup;
+      });
+      // marker.marker.setLabel('');
+      marker.marker.setIcon(mapIcon);
+      marker.marker.setZIndex(marker.zIndex);
     });
   </script>
 </html>

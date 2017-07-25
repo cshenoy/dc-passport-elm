@@ -2,6 +2,7 @@ module Views exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
+import Html.Events exposing (onMouseOver, onMouseLeave)
 
 import Models exposing (..)
 import Msgs exposing (Msg(..))
@@ -41,7 +42,11 @@ viewPlaces venues =
 
 viewSinglePlace : Int -> Venue -> Html Msg
 viewSinglePlace index place =
-  div [ class "list-item", id ( "venue" ++ (toString place.id ) ) ]
+  div [ class "list-item"
+      , id ( "venue" ++ (toString place.id ) )
+      , onMouseOver (Hover place.id)
+      , onMouseLeave (HoverOff place.id)
+      ]
     [ div [ class "list-item-content" ]
       [ h4 [] [ text ( place.name ) ]
       , p [] [ text (place.neighborhood) ]

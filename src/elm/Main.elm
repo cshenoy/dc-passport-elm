@@ -9,7 +9,7 @@ import Models exposing (..)
 import Msgs exposing (Msg(..))
 import Updates exposing (update)
 import Views exposing (view)
-import Ports exposing (receiveMap, markerClick)
+import Ports exposing (receiveMap, markerClick, resetSelected)
 
 -- component import example
 --import Components.Restaurant exposing ( restaurant )
@@ -29,6 +29,7 @@ subscriptions model =
   Sub.batch
     [ receiveMap JSMap
     , markerClick MarkerClick
+    , resetSelected ResetSelected
     ]
 
 -- APP
