@@ -15,13 +15,14 @@
   <script>
     var markers = [];
     // var MAP_PIN = 'M0-48c-9.8 0-17.7 7.8-17.7 17.4 0 15.5 17.7 30.6 17.7 30.6s17.7-15.4 17.7-30.6c0-9.6-7.9-17.4-17.7-17.4z';
-    var MAP_PIN = 'M 25 1 C 19.484375 1 15 5.484375 15 11 C 15 16.515625 19.484375 21 25 21 C 30.515625 21 35 16.515625 35 11 C 35 5.484375 30.515625 1 25 1 Z M 25 5 C 25.550781 5 26 5.445313 26 6 C 26 6.554688 25.550781 7 25 7 C 22.792969 7 21 8.792969 21 11 C 21 11.554688 20.550781 12 20 12 C 19.449219 12 19 11.554688 19 11 C 19 7.691406 21.691406 5 25 5 Z M 22 22.605469 L 22 43.246094 L 25 48.988281 L 28 43.246094 L 28 22.605469 C 27.039063 22.855469 26.035156 23 25 23 C 23.964844 23 22.960938 22.855469 22 22.605469 Z ';
+    var MAP_PIN = 'm15.07805,0.2471c-7.90356,0 -14.33246,6.42889 -14.33246,14.33081c0,2.19882 0.49833,4.32567 1.48182,6.3212l12.85064,18.90702l12.74075,-18.72241l0.10714,-0.18406c0.98348,-1.99553 1.48127,-4.12238 1.48127,-6.3212c0.0011,-7.90192 -6.42779,-14.33136 -14.32916,-14.33136z';
     var mapIcon = {
       path: MAP_PIN,
       fillColor: '#0d00cc',
       fillOpacity: 1,
       strokeColor: '',
-      strokeWeight: 1
+      strokeWeight: 1,
+      scale: 0.5,
     };
     var mapHoverIcon = Object.assign({}, mapIcon, { fillColor: '#00CCBB' })
     elm.ports.loadMap.subscribe(function (model) {
@@ -33,6 +34,18 @@
         center: myLatlng,
         mapTypeControl: false,
         streetViewControl: false,
+        styles: [{
+          featureType: 'poi',
+          stylers: [{
+            visibility: 'off',
+          }]
+        }, {
+          featureType: 'transit',
+          elementType: 'labels.icon',
+          stylers: [{
+            visibility: 'off',
+          }],
+        }]
       };
       gmap = new google.maps.Map(mapDiv, mapOptions);
       // We store the Google Map object in Elm
